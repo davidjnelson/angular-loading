@@ -7,7 +7,9 @@ Quickstart
 Usage
 =====
 
+```html
   <angular-loading loading="scopeObjectThatIndicatesLoading" errorOccured="scopeObjectThatIndicatesLoading" 
     reload="scopeFunctionThatInitiatesRetry" loadingMessage="textOrScopeObjectForTheMessageTheUserSeesWhileLoading" 
     loadingMessage="textOrScopeObjectForTheMessageTheUserSeesWhenAnErrorOccurs" 
     loadingMessage="textOrScopeObjectForTheMessageTheUserSeesForTheReloadLink"></angular-loading>
+```
